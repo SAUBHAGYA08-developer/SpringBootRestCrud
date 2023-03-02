@@ -1,0 +1,97 @@
+2023-03-02 15:06:14.175  INFO 508 --- [restartedMain] c.r.SpringBootRestCrudApplication        : Starting SpringBootRestCrudApplication using Java 18.0.2 on DESKTOP-4FKMKV3 with PID 508 (D:\Project Workspace\SpringBootRestCrud\target\classes started by shubhesh in D:\Project Workspace\SpringBootRestCrud)
+2023-03-02 15:06:14.176 DEBUG 508 --- [restartedMain] c.r.SpringBootRestCrudApplication        : Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-03-02 15:06:14.176  INFO 508 --- [restartedMain] c.r.SpringBootRestCrudApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-03-02 15:06:14.638  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-02 15:06:14.639  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-03-02 15:06:14.646  INFO 508 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.restcrudapi.repository.CarRepo; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-03-02 15:06:14.647  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-03-02 15:06:14.656  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-02 15:06:14.657  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-02 15:06:14.666  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2023-03-02 15:06:14.857  INFO 508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-03-02 15:06:14.859  INFO 508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-02 15:06:14.859  INFO 508 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-02 15:06:14.901  INFO 508 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-02 15:06:14.902  INFO 508 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 722 ms
+2023-03-02 15:06:14.972  INFO 508 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-02 15:06:14.983  INFO 508 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-03-02 15:06:14.992  INFO 508 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-03-02 15:06:14.993  INFO 508 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-02 15:06:15.082  INFO 508 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-02 15:06:15.083  INFO 508 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 15:06:15.450  WARN 508 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-02 15:06:15.574  INFO 508 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-02 15:06:15.681  INFO 508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-02 15:06:15.873  INFO 508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-03-02 15:06:15.875  INFO 508 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-02 15:06:15.876  INFO 508 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-02 15:06:15.884  INFO 508 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-02 15:06:15.936  INFO 508 --- [restartedMain] c.r.SpringBootRestCrudApplication        : Started SpringBootRestCrudApplication in 1.841 seconds (JVM running for 2347.865)
+2023-03-02 15:06:15.940  INFO 508 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-02 15:08:32.419  INFO 508 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-02 15:08:32.448  INFO 508 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-02 15:08:32.461  INFO 508 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 15:08:32.462  INFO 508 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-03-02 15:08:32.468  INFO 508 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-03-02 15:08:32.611  INFO 508 --- [restartedMain] c.r.SpringBootRestCrudApplication        : Starting SpringBootRestCrudApplication using Java 18.0.2 on DESKTOP-4FKMKV3 with PID 508 (D:\Project Workspace\SpringBootRestCrud\target\classes started by shubhesh in D:\Project Workspace\SpringBootRestCrud)
+2023-03-02 15:08:32.612 DEBUG 508 --- [restartedMain] c.r.SpringBootRestCrudApplication        : Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-03-02 15:08:32.612  INFO 508 --- [restartedMain] c.r.SpringBootRestCrudApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-03-02 15:08:33.034  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-02 15:08:33.037  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-03-02 15:08:33.052  INFO 508 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.restcrudapi.repository.CarRepo; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-03-02 15:08:33.053  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2023-03-02 15:08:33.064  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-02 15:08:33.066  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-02 15:08:33.079  INFO 508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2023-03-02 15:08:33.252  INFO 508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-03-02 15:08:33.254  INFO 508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-02 15:08:33.256  INFO 508 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-02 15:08:33.311  INFO 508 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-02 15:08:33.313  INFO 508 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 697 ms
+2023-03-02 15:08:33.392  INFO 508 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-02 15:08:33.401  INFO 508 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-03-02 15:08:33.411  INFO 508 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-03-02 15:08:33.413  INFO 508 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-02 15:08:33.508  INFO 508 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-02 15:08:33.508  INFO 508 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 15:08:33.739  WARN 508 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-02 15:08:33.815  INFO 508 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-02 15:08:33.912  INFO 508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-02 15:08:34.038  INFO 508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-03-02 15:08:34.040  INFO 508 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-02 15:08:34.041  INFO 508 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-02 15:08:34.051  INFO 508 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-02 15:08:34.097  INFO 508 --- [restartedMain] c.r.SpringBootRestCrudApplication        : Started SpringBootRestCrudApplication in 1.534 seconds (JVM running for 2486.026)
+2023-03-02 15:08:34.100  INFO 508 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-02 15:09:11.440  INFO 508 --- [RMI TCP Connection(45)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-02 15:09:11.456  INFO 508 --- [RMI TCP Connection(45)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-02 15:09:11.464  INFO 508 --- [RMI TCP Connection(45)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 15:09:11.467  INFO 508 --- [RMI TCP Connection(45)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-03-02 15:09:11.472  INFO 508 --- [RMI TCP Connection(45)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-03-02 15:45:30.447  INFO 9560 --- [main] c.r.SpringBootRestCrudApplicationTests   : Starting SpringBootRestCrudApplicationTests using Java 18.0.2 on DESKTOP-4FKMKV3 with PID 9560 (started by shubhesh in D:\Project Workspace\git\SpringBootRestCrud)
+2023-03-02 15:45:30.452 DEBUG 9560 --- [main] c.r.SpringBootRestCrudApplicationTests   : Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-03-02 15:45:30.460  INFO 9560 --- [main] c.r.SpringBootRestCrudApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-03-02 15:45:32.879  INFO 9560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-02 15:45:32.884  INFO 9560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-03-02 15:45:32.963  INFO 9560 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.restcrudapi.repository.CarRepo; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-03-02 15:45:32.965  INFO 9560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 0 JDBC repository interfaces.
+2023-03-02 15:45:33.000  INFO 9560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-02 15:45:33.003  INFO 9560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-02 15:45:33.110  INFO 9560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interfaces.
+2023-03-02 15:45:34.750  INFO 9560 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-02 15:45:34.946  INFO 9560 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-02 15:45:35.386  INFO 9560 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-02 15:45:35.843  INFO 9560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-02 15:45:36.779  INFO 9560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-02 15:45:36.825  INFO 9560 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-02 15:45:38.338  INFO 9560 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-02 15:45:38.354  INFO 9560 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 15:45:40.110  WARN 9560 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-02 15:45:41.216  INFO 9560 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-02 15:45:43.538  INFO 9560 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-02 15:45:43.594  INFO 9560 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-02 15:45:43.670  INFO 9560 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-02 15:45:43.994  INFO 9560 --- [main] c.r.SpringBootRestCrudApplicationTests   : Started SpringBootRestCrudApplicationTests in 14.558 seconds (JVM running for 17.562)
+2023-03-02 15:45:44.985  INFO 9560 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02 15:45:44.991  INFO 9560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-02 15:45:45.081  INFO 9560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
