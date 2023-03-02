@@ -52,7 +52,6 @@ public class CarController {
 		return resp;
 	}
 	
-	//for update
 	@PutMapping("/update/{id}")
 	@ApiOperation("This is for Update Car by Id")
 	public ResponseEntity<String> updateCar(
