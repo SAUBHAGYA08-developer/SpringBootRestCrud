@@ -30,6 +30,7 @@ public class CarServiceImpl implements ICarService {
 	@Override
 	public List<Car> getAllCars() {
 		List<Car> list=repo.findAll();
+		system.out.println("Test");
 		return list;
 	}
 
